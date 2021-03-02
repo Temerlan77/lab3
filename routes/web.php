@@ -31,5 +31,8 @@ Route::get('client/add',function(){
         'name' =>'Tima',
         'surname' =>'Bakyt',
         'sge' =>19
+
     })
 })
+Route::get('/user', function () {
+    return '<h1>I am user</h1>';
