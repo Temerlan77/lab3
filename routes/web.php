@@ -26,13 +26,3 @@ Route::get('/user', function () {
 Route::get('/home', function () {
     return "home";
 }); 
-Route::get('client/add',function(){
-    DB::table('clienat')->insert({
-        'name' =>'Tima',
-        'surname' =>'Bakyt',
-        'sge' =>19
-
-    })
-})
-Route::get('/user', function () {
-    return '<h1>I am user</h1>';
