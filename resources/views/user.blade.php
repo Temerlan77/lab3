@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;700&family=Karla:wght@700&family=Lexend+Peta&family=Lobster&family=Mukta:wght@600&family=Tajawal&display=swap" rel="stylesheet">
 </head>
 <body>
+<h1>Welcom</h1>
 <style>
 html,body{
 	margin:0;
