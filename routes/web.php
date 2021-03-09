@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
-use App\Models\Client;
+use App\Models\Post;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +26,10 @@ Route::get('/user', function () {
 Route::get('/home', function () {
     return "home";
 }); 
+
+ Route::get('post/add' , function(){
+     DB::table('post')->insert([
+         'title' =>'tu',
+         'body' => 'good'
+     ]);     
+ });
